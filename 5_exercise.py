@@ -40,14 +40,9 @@ lst_1[0] == lst_1[-1]
 #ukol 
 
 def chek_first_last(lst):
-    if lst[0]==lst[-1]:
-        answer = True
-    else: 
-        answer = False 
-        
-
     print (f"Your list: {lst}")
-    print (f"Result is: {answer} ")
+    print (f"Result is: {lst[0]==lst[-1]} ")
+ 
 
 
 chek_first_last(lst_1)
