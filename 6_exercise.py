@@ -12,4 +12,7 @@ for i in range(100):
 
 
 
-lst
+cisla = [1,2,3,5,3,10,54,20,45,2,2,4]
+for cislo in cisla:
+    if cislo % 5 == 0:
+        print (cislo)
