@@ -1,7 +1,7 @@
 str = "pynative"
 
 for i in range(len(str)):
-    if i % 2 == 1:
+    if i % 2 == 0:
         print(str[i])
          
          
@@ -10,5 +10,7 @@ for i in range(len(str)):
          
          
 str = "pynative"       
-for i in range(1, len(str), 2):
+for i in range(0, len(str), 2):
      print(str[i])
+
+
